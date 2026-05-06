@@ -362,3 +362,108 @@ form button:hover {
         flex-direction: column;
     }
 }
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 767px) {
+    header {
+        padding: 50px 20px;
+    }
+
+    .heading__logo {
+        width: 100px;
+    }
+
+    .presentation,
+    .ready {
+        padding-inline: 20px;
+    }
+
+    .presentation__title {
+        font-size: 28px;
+        order: 1;
+    }
+
+    .presentation__text {
+        order: 2;
+    }
+
+    .presentation__data,
+    form,
+    .conversations__article {
+        flex-direction: column;
+    }
+
+    .presentation__data {
+        align-items: center;
+        gap: 100px;
+        order: 5;
+    }
+
+    .presentation__data__article,
+    .column,
+    form input {
+        width: 100%;
+    }
+
+    .getStarted__btn {
+        padding: 20px 40px;
+        order: 3;
+    }
+
+    .mockups {
+        order: 4;
+    }
+
+    .grow__article,
+    .conversations__article,
+    .users__article {
+        padding: 100px 20px;
+    }
+
+    .grow__article,
+    .users__article,
+    .footer__informations {
+        flex-direction: column-reverse;
+    }
+
+    .grow__article__title,
+    .conversations__article__title,
+    .users__article__title,
+    .grow__article__text,
+    .conversations__article__text,
+    .users__article__text {
+        text-align: center;
+    }
+
+    .grow__article__title,
+    .conversations__article__title,
+    .users__article__title,
+    .ready__title {
+        font-size: 24px;
+    }
+
+    .presentation__text,
+    .grow__article__text,
+    .conversations__article__text,
+    .users__article__text,
+    .column__text {
+        max-width: 100%;
+    }
+
+    .footer__informations {
+        padding: 70px 20px;
+    }
+
+    form {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    form button {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: -80px;
+    }
+}
