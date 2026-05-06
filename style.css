@@ -42,6 +42,8 @@ h3 {
     font-family: "Open Sans", sans-serif;
 }
 
+h1,
+h2,
 p {
     line-height: 1.5;
 }
@@ -340,4 +342,23 @@ form button {
 
 form button:hover {
     opacity: 1;
+}
+
+/**** Responsive design version tablette ****/
+
+@media screen and (max-width: 991px) {
+    .mockups {
+        width: 100%;
+    }
+
+    .grow__article,
+    .conversations__article,
+    .users__article {
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footer__informations {
+        flex-direction: column;
+    }
 }
