@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+    <!-- Importation des polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Importation de la favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- Font-awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- Importation des styles -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Début du header -->
+    <header>
+      <div class="heading">
+        <div class="heading__logo">
+          <img src="images/logo.svg" alt="Logo Huddle" />
+        </div>
+        <button class="heading__btn">Try it free</button>
+      </div>
+    </header>
+    <!-- Fin du header -->
+
+    <!-- Début du main -->
+    <main class="main__content">
+      <!-- Début de la section presentation -->
+      <section class="presentation">
+        <h1 class="presentation__title">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="presentation__text">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="getStarted__btn">Get Started For Free</button>
+        <img src="images/screen-mockups.svg" alt="mockups" class="mockups" />
+        <div class="presentation__data">
+          <article class="presentation__data__article">
+            <div class="presentation__data__article__image">
+              <img
+                src="images/icon-communities.svg"
+                alt="icon communities"
+                class="presentation__data__article__image__1"
+              />
+            </div>
+            <p class="presentation__data__article__number">1.4K+</p>
+            <h2 class="presentation__data__article__title">
+              Communities Formed
+            </h2>
+          </article>
+
+          <article class="presentation__data__article">
+            <div class="presentation__data__article__image">
+              <img
+                src="images/icon-messages.svg"
+                alt="icon messages"
+                class="presentation__data__article__image__2"
+              />
+            </div>
+            <p class="presentation__data__article__number">2.7m+</p>
+            <h2 class="presentation__data__article__title">Messages sent</h2>
+          </article>
+        </div>
+      </section>
+      <!-- Fin de la section presentation -->
+
+      <!-- Début de la section grow -->
+      <section class="grow">
+        <picture>
+          <source
+            srcset="images/bg-section-top-desktop-1.svg"
+            media="(min-width: 767px)"
+          />
+          <img src="images/bg-section-top-mobile-1.svg" alt="background" />
+        </picture>
+        <article class="grow__article">
+          <div class="grow__article__div">
+            <h2 class="grow__article__title">Grow Together</h2>
+            <p class="grow__article__text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <img
+            src="images/illustration-grow-together.svg"
+            alt="grow together"
+          />
+        </article>
+        <picture>
+          <source
+            srcset="images/bg-section-bottom-desktop-1.svg"
+            media="(min-width: 767px)"
+          />
+          <img src="images/bg-section-bottom-mobile-1.svg" alt="background" />
+        </picture>
+      </section>
+      <!-- Fin de la section grow -->
+
+      <!-- Début de la section conversations -->
+      <section class="conversations">
+        <article class="conversations__article">
+          <img
+            src="images/illustration-flowing-conversation.svg"
+            alt="flowing conversations"
+          />
+          <div class="conversations__article__div">
+            <h2 class="conversations__article__title">Flowing Conversations</h2>
+            <p class="conversations__article__text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- Fin de la section conversations -->
+
+      <!-- Début de la section users -->
+      <section class="users">
+        <picture>
+          <source
+            srcset="images/bg-section-top-desktop-2.svg"
+            media="(min-width: 767px)"
+          />
+          <img src="images/bg-section-top-mobile-2.svg" alt="background" />
+        </picture>
+        <article class="users__article">
+          <div class="users__article__div">
+            <h2 class="users__article__title">Your Users</h2>
+            <p class="users__article__text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately
+            </p>
+          </div>
+          <img src="images/illustration-your-users.svg" alt="your users" />
+        </article>
+        <picture>
+          <source
+            srcset="images/bg-section-bottom-desktop-2.svg"
+            media="(min-width: 767px)"
+          />
+          <img src="images/bg-section-bottom-mobile-2.svg" alt="background" />
+        </picture>
+      </section>
+      <!-- Fin de la section users -->
+
+      <!-- Début de la section ready -->
+      <section class="ready">
+        <h2 class="ready__title">Ready To Build Your Community?</h2>
+        <button class="getStarted__btn">Get started for free</button>
+      </section>
+      <!-- Fin de la section ready-->
+    </main>
+    <!-- Fin du main -->
+
+    <!-- Début du footer -->
+    <footer>
+      <picture>
+        <source
+          srcset="images/bg-footer-top-desktop.svg"
+          media="(min-width: 767px)"
+        />
+        <img src="images/bg-footer-top-mobile.svg" alt="background-top" />
+      </picture>
+      <div class="footer__informations">
+        <div class="column">
+          <div class="footer__logo">
+            <img src="images/logo_white.svg" alt="Logo Huddle" />
+          </div>
+          <p class="column__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <div class="column__contact">
+            <div class="column__contact__image">
+              <img src="images/icon-phone.svg" alt="phone" />
+            </div>
+            <p class="column__contact__phone">+1-543-123-4567</p>
+          </div>
+
+          <div class="column__contact">
+            <div class="column__contact__image">
+              <img src="images/icon-email.svg" alt="email" />
+            </div>
+            <p class="column__contact__email">example@huddle.com</p>
+          </div>
+
+          <ul class="social__network__list">
+            <li>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h3 class="column__title">Newsletter</h3>
+          <p class="column__text">
+            to recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We'll never send you spam or pass on your email adress
+          </p>
+          <form action="#">
+            <div class="form__group">
+              <input type="email" class="email__input" />
+              <p class="error__message">
+                <!-- Ceci est un message d'erreur ! -->
+              </p>
+            </div>
+            <button type="submit" class="submit__btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin du footer -->
+  </body>
+</html>
