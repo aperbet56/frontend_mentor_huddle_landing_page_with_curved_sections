@@ -3,6 +3,7 @@ const scrollIndicator = document.querySelector("#scroll__indicator");
 const email = document.querySelector(".email__input");
 const btn = document.querySelector(".submit__btn");
 const form = document.querySelector("form");
+const copyrightYear = document.querySelector(".copyright__year");
 
 // Déclaration de la fonction handleScrollIndicator qui va permettre de gérer la progression de la barre de scroll
 const handleScrollIndicator = () => {
@@ -72,3 +73,10 @@ const submit = () => {
 };
 // Appel de la fonction submit()
 submit();
+
+// Récupération de la date actuelle et de l'année
+const today = new Date();
+const currentYear = today.getFullYear();
+
+// Affichage dynamique de l'année
+copyrightYear.textContent = `${currentYear}`;
