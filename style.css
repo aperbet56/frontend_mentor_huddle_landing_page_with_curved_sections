@@ -276,6 +276,7 @@ footer picture {
     height: 150px;
     position: absolute;
     bottom: 100%;
+    top: -148px;
 }
 
 .footer__informations {
