@@ -2,6 +2,8 @@
 
 ## Le challenge
 
+Voici ma solution au challenge Frontend Menor : Huddle Landing Page With Curved Sections.
+
 Le challenge consiste à créer cette page d'accueil et à la rendre aussi fidèle que possible au design.
 
 Les utilisateurs doivent pouvoir :
