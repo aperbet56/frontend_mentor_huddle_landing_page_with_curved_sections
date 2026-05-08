@@ -16,7 +16,7 @@ Les utilisateurs doivent pouvoir :
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/frontend_mentor_huddle_landing_page_with_curved_sections/
 
 ## Projet développé avec
 
