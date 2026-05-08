@@ -1,5 +1,7 @@
 ## FRONTEND MENTOR | HUDDLE LANDING PAGE WITH CURVED SECTIONS
 
+![Design preview for the project](./images/preview.png)
+
 ## Le challenge
 
 Voici ma solution au challenge Frontend Menor : Huddle Landing Page With Curved Sections.
